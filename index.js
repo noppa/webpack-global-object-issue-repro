@@ -1,4 +1,4 @@
-async function main() {
-  await import('./chunk').a()
+async function load() {
+  (await import('./chunk')).a()
 }
-main()
+document.getElementById('load').onclick = load

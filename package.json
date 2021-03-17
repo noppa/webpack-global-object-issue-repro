@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "rm -rf dist && node build.js"
+    "build": "rm -rf dist && node build.js",
+    "build:v4": "rm -rf dist && node build.js --webpack-version 4",
+    "serve": "http-server . -o demo.html",
+    "test": ""
   },
   "repository": {
     "type": "git",
@@ -18,8 +21,8 @@
   "homepage": "https://github.com/noppa/webpack-global-object-issue-repro#readme",
   "private": true,
   "devDependencies": {
+    "http-server": "^0.12.3",
     "webpack-4": "npm:webpack@4.42.0",
-    "webpack-5": "npm:webpack@5.26.3",
-    "webpack-dev-server": "3.11.2"
+    "webpack-5": "npm:webpack@5.26.3"
   }
 }
