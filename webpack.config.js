@@ -5,12 +5,12 @@ module.exports = {
   mode: 'development',
   devtool: 'source-map',
   output: {
-    path: path.join(__dirname),
+    path: path.join(__dirname, 'dist'),
     filename: '[name].js',
 
     library: 'myLib',
     libraryTarget: 'umd',
-    globalObject: 'xxx',
+    globalObject: 'typeof self !== \'undefined\' ? self : this',
   },
   optimization: {
     splitChunks: {
