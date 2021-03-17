@@ -22,7 +22,7 @@
   "private": true,
   "devDependencies": {
     "http-server": "^0.12.3",
-    "webpack-4": "npm:webpack@4.42.0",
+    "webpack-4": "npm:webpack@4.46.0",
     "webpack-5": "npm:webpack@5.26.3"
   }
 }
