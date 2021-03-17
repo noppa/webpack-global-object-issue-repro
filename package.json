@@ -1,0 +1,25 @@
+{
+  "name": "webpack-global-object-issue-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noppa/webpack-global-object-issue-repro.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noppa/webpack-global-object-issue-repro/issues"
+  },
+  "homepage": "https://github.com/noppa/webpack-global-object-issue-repro#readme",
+  "private": true,
+  "devDependencies": {
+    "webpack-4": "npm:webpack@4.46.0",
+    "webpack-5": "npm:webpack@5.26.3",
+    "webpack-dev-server": "3.11.2"
+  }
+}
